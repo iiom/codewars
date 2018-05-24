@@ -5,7 +5,7 @@
 def find_it(seq)
   seq.find { |n| seq.count(n).odd? }   # аналог метода find метод detect
 end
-# find_it(array=[20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5])
+p find_it(array=[20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5])
 
 
 # def find_it(seq)
