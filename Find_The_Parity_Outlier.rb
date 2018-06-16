@@ -21,7 +21,7 @@ def find_outlier(integers)
   eve.count < od.count ? eve[0] : od[0]
 end
 
-# find_outlier(array = [2, 4, 0, 100, 4, 11, 2602, 36])
+p find_outlier(array = [2, 4, 0, 100, 4, 11, 2602, 36])
 # find_outlier(array = [160, 3, 1719, 19, 11, 13, -21])
 # find_outlier(array = [0, 1, 2])
 # find_outlier(array = [1, 2, 3])
