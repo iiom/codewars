@@ -5,7 +5,6 @@
 # For example:
 # Kata.PascalsTriangle(4) == new List<int> {1,1,1,1,2,1,1,3,3,1}
 
-
 def pascalsTriangle(n)
   arr = []
   count = 0
@@ -90,3 +89,6 @@ end
 #   end
 #   arr.flatten()
 # end
+
+
+p pascalsTriangle(4)
