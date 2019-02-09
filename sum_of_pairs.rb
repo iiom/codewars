@@ -29,3 +29,4 @@ p sum_pairs(l5, 10) #= [3, 7], "First Match From Left REDUX!: ["+l5.join(", ")+"
 p sum_pairs(l6, 8) #= [4, 4], "Duplicates: ["+l6.join(", ")+"] should return [4, 4] for sum = 8")
 p sum_pairs(l7, 0) #= [0, 0], "Zeroes: ["+l7.join(", ")+"] should return [0, 0] for sum = 0")
 p sum_pairs(l8, 10) #= [13, -3], "Subtraction: ["+l8.join(", ")+"] should return [13, -3] for sum = 10")
+
