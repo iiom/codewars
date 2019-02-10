@@ -42,7 +42,6 @@ end
 #   Prime.each(high).select{|prime| prime >= low}.each_cons(2).find{|(a,b)| b-a == gap }
 # end
 
-
 # require 'prime'
 #
 # def gap(g,m,n)
