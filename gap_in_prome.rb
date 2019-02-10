@@ -48,3 +48,4 @@ end
 #   Prime.take_while { |i| i<=n }.reject { |i| i<m }.each_cons(2).find { |a,b| b-a == g }
 # end
 #
+#
