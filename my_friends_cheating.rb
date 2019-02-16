@@ -63,5 +63,19 @@ end
 #
 #
 #
+# def removNb(n)
+#     s = (n * (n +1) / 2)
+#     res = []
+#     i = (n / 2).to_i
+#     while (i <= n) do
+#         b = s - i
+#         if (b % (i + 1) == 0) then
+#             res << [i, b / (i + 1)]
+#         end
+#         i = i + 1
+#     end
+#     res
+# end
+#
 p removNb(26)
 p removNb(100)
