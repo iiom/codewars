@@ -88,5 +88,16 @@ end
 #   end
 # end
 #
+#
+# def removNb(n)
+#  ((n / 2)..n).map do |a|
+#     b = (n * (n + 1) / 2 + 1)/(a + 1.0) - 1
+#     if b % 1 == 0
+#       [a, b]
+#     end
+#   end
+#   .compact
+# end
+
 p removNb(26)
 p removNb(100)
