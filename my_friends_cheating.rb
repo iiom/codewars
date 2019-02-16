@@ -77,5 +77,16 @@ end
 #     res
 # end
 #
+#
+# def removNb(n)
+#   sum = (1..n).reduce(:+)
+#   from = Math.sqrt(n).floor
+#
+#   (from..n).reduce([]) do |res, first_num|
+#     second_num, rest = (sum - first_num).divmod(first_num + 1)
+#     (rest.zero? and second_num <= n) ? res << [first_num, second_num] : res
+#   end
+# end
+#
 p removNb(26)
 p removNb(100)
