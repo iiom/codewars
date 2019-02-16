@@ -21,5 +21,17 @@ end
 #   arr_res
 # end
 #
+#
+#
+# best from kata
+# def removNb(n)
+#   (1..n).each.with_object([]) do |a, results|
+#     b, remainder = (n*(n+1)/2-a).divmod(a+1)
+#     results << [a,b] if remainder == 0 && b < n
+#   end
+# end
+#
+#
+#
 p removNb(26)
 p removNb(100)
