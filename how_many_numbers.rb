@@ -60,3 +60,14 @@ p find_all(50, 10) == [1514, 1111199999, 5555555555]
 #   return final.empty? ? [] : [final.count, final.first.join.to_i, final.last.join.to_i]
 # end
 #
+#
+# def find_all(n, k)
+#     #your code here
+#     arr = (1..9).to_a
+#     combinations = arr.repeated_combination(k).to_a
+#     accepted = combinations.select do |array|
+#       array.reduce(&:+) == n
+#     end
+#     answer = accepted.size == 0 ? [] : [accepted.length,accepted.first.join.to_i,accepted.last.join.to_i]
+# end
+#
