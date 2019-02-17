@@ -49,3 +49,14 @@ p find_all(50, 10) == [1514, 1111199999, 5555555555]
 # end
 #____________________________
 #
+#
+# def find_all(n, k)
+#   return [] unless n <= 9*k
+#
+#   final = [1,2,3,4,5,6,7,8,9].repeated_combination(k).reject do |x|
+#     x.reduce(:+) != n
+#   end
+#
+#   return final.empty? ? [] : [final.count, final.first.join.to_i, final.last.join.to_i]
+# end
+#
