@@ -21,9 +21,11 @@ p find_all(50, 10) == [1514, 1111199999, 5555555555]
 #   return [] if sols.empty?
 #   [sols.length, sols.min.join.to_i, sols.max.join.to_i]
 # end
-
-
-
-
-
+#
+#
+# def find_all(n, k)
+#   a = (1..9).to_a.repeated_combination(k).select{|c| c.reduce(&:+) == n}
+#   a.empty? ? [] : [a.size, a.first.join.to_i, a.last.join.to_i]
+# end
+#
 
