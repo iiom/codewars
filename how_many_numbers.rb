@@ -71,3 +71,22 @@ p find_all(50, 10) == [1514, 1111199999, 5555555555]
 #     answer = accepted.size == 0 ? [] : [accepted.length,accepted.first.join.to_i,accepted.last.join.to_i]
 # end
 #
+#
+# _______________________________
+# def find_all(n, k)
+#   r = f(n, k, 1)
+#   r.empty? ? [] : [r.size, r.min.to_i, r.max.to_i]
+# end
+#
+# def f (s, k, prev)
+#   return [] if s <0 or s>9*k
+#   return s.between?(prev,9) ? [s.to_s] : [] if k == 1
+#   (prev..9).inject([]) { |res, x|
+#     r = f(s-x,k-1,x)
+#     if r.empty? == false
+#       r.each {|y| res << x.to_s + y}
+#     end
+#     res
+#   }
+# end
+# ______________________
