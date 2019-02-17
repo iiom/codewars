@@ -28,4 +28,24 @@ p find_all(50, 10) == [1514, 1111199999, 5555555555]
 #   a.empty? ? [] : [a.size, a.first.join.to_i, a.last.join.to_i]
 # end
 #
-
+#
+# ___________________
+# def find_all(n, k)
+#   ps = parts(n, k, 1)
+#   return [] if ps.empty?
+#   [ps.length, value(ps[0]), value(ps[-1])]
+# end
+#
+# def value(xs)
+#   xs.reduce(0) {|a, b| 10*a + b}
+# end
+#
+# def parts(s, n, p)
+#   return [] if s < p
+#   return s < 10 ? [[s]] : [] if n == 1
+#   a = []
+#   (p..9).each {|i| parts(s - i, n - 1, i).each {|xs| a << xs.insert(0, i)}}
+#   a
+# end
+#____________________________
+#
