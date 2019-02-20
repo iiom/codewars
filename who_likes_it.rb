@@ -13,6 +13,7 @@ end
 #   return x[[names.count,4].min] % names
 # end
 #
+#
 # def likes(names)
 #   phrase = names.count > 1 ? " like this" : " likes this"
 #   case names.count
