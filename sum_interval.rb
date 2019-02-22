@@ -9,3 +9,17 @@ puts "#{sum_of_intervals([[1, 4], [7, 10], [3, 5]])} <==> 7"
 puts "#{sum_of_intervals([[37, 488], [92, 257], [167, 479], [82, 408]])} <==> 451"
 
 
+# some solution from kata
+# def sum_of_intervals(intervals)
+#   intervals
+#     .map { |arr| (arr.first...arr.last).to_a }
+#     .reduce(:+)
+#     .uniq
+#     .chunk_while { |a,b| b - a == 1 }
+#     .map(&:size)
+#     .reduce(:+)
+# end
+#
+#
+#
+#
