@@ -22,4 +22,16 @@ puts "#{sum_of_intervals([[37, 488], [92, 257], [167, 479], [82, 408]])} <==> 45
 #
 #
 #
+# def sum_of_intervals(intervals)
+#   uniq_digits = Set.new
+#   total = 0
 #
+#   (0...intervals.size).each do | i |
+#     sub_arr = intervals[i]
+#     (sub_arr[0]...sub_arr[1]).each do | num |
+#       total += 1 unless uniq_digits.include?(num)
+#       uniq_digits << num
+#     end
+#   end
+#   total
+# end
