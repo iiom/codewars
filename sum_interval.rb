@@ -35,3 +35,18 @@ puts "#{sum_of_intervals([[37, 488], [92, 257], [167, 479], [82, 408]])} <==> 45
 #   end
 #   total
 # end
+#
+#
+# def sum_of_intervals(intervals)
+#   intervals.reduce([]) { |acc, val| acc + [*val[0]...val[1]] }.uniq.count
+# end
+#
+# # class SumOfIntervals
+# #   def initialize(intervals)
+# #     @intervals = intervals
+# #   end
+#
+# #   def unique_sum
+# #     @intervals.reduce([]) { |acc, val| acc + [*val[0]...val[1]] }.uniq.count
+# #   end
+# # end
