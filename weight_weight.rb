@@ -1,5 +1,5 @@
 def order_weight(strng)
-  # your code
+
 end
 
 puts "#{order_weight("103 123 4444 99 2000")} <==> 2000 103 123 4444 99"
