@@ -1,5 +1,5 @@
 def order_weight(strng)
-  strng = strng.split(" ").map{|e| [e, e.split("").map(&:to_i).sum]}
+  strng = strng.split(" ").map{|elem| [elem, elem.split("").map(&:to_i).sum]}
   strng.sort_by { |elem| [elem.last, elem.first] }.map(&:first).join(' ')
 end
 
