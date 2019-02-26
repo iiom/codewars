@@ -11,3 +11,4 @@ puts "#{order_weight("2000 10003 1234000 44444444 9999 11 11 22 123")} <==> 11 1
 # def order_weight(string)
 #   string.split.sort_by { |n| [n.chars.map(&:to_i).reduce(:+), n] }.join(" ")
 # end
+#
