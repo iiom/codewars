@@ -67,14 +67,14 @@ end
 # def smallest(n)
 #   n = n.to_s
 #   res = [n, 0, 0]
-  
+
 #   (0...n.size).to_a.permutation(2).each { |i, j|
 #     tmp = n.chars
 #     tmp.insert(j, tmp.delete_at(i))
 #     tmp = tmp.join
 #     res = [tmp, i, j] if tmp < res[0]
 #   }
-  
+
 #   [res[0].to_i] + res[1, 2]
 # end
 
