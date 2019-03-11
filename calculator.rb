@@ -78,7 +78,6 @@ end
 
 
 
-
 # class Calculator
 #   def evaluate(string)
 #     @arr = string.split(" ")
