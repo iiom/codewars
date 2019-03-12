@@ -153,3 +153,4 @@ end
 #   def div(lhs, rhs); lhs.to_f / rhs.to_f; end
 
 # end
+
