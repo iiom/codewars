@@ -6,6 +6,14 @@ end
 
 
 
+
+# def increment_string(input)
+#   input.sub(/\d*$/) { |x| x.empty? ? 1 : x.next }
+# end
+
+
+
+
 # def increment_string(input)
 #   input.sub(/\d*$/) { |n| n.empty? ? 1 : n.succ }
 # end
