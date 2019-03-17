@@ -53,7 +53,6 @@ missing("12345678910111213")
 
 
 
-
 # def missing(sequence)
 #   first_number = ""
 #   # The first number of the sequence could start with the
