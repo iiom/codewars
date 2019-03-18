@@ -17,7 +17,7 @@ def missing(s)
     s.first(a).join.to_i.equal?(i) ? range_witout << s.shift(a) : nil
   end
 
-  range_witout = range_witout.map.map(&:join).map(&:to_i)
+  range_witout = range_witout.map(&:join).map(&:to_i)
 
   (range - range_witout).empty? || (range - range_witout).size >= 2 ? -1 : (range - range_witout).first
 end
