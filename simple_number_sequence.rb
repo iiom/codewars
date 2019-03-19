@@ -161,7 +161,6 @@ missing("12345678910111213")
 
 
 
-
 # def missing s
 #   for c in 1...s.length
 #     temp = 1
