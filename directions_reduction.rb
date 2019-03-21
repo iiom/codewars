@@ -67,4 +67,11 @@ p dirReduc(["NORTH", "WEST", "SOUTH", "EAST"])
 # end
 
 
-
+# def dirReduc(arr)
+#   directions = /(NORTHSOUTH|SOUTHNORTH|EASTWEST|WESTEAST)/
+#   coordinates = arr.join
+#   while coordinates.index(directions)
+#     coordinates.gsub!(directions,'')
+#   end
+#   coordinates.scan(/(NORTH|SOUTH|EAST|WEST)/).flatten
+# end
