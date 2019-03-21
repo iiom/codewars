@@ -38,7 +38,26 @@ p dirReduc(["NORTH", "WEST", "SOUTH", "EAST"])
 
 
 
+# POLAR = {
+#   'NORTH' => 'SOUTH',
+#   'SOUTH' => 'NORTH',
+#   'EAST'  => 'WEST',
+#   'WEST'  => 'EAST'
+# }
 
+# def dirReduc(arr)
+#   res = []
+#   arr.each do |dir|
+#     POLAR[dir] == res.last ? res.pop : res.push(dir)
+#   end
+#   res
+# end
+
+
+# def dirReduc arr
+#   d = [['NORTH', 'SOUTH'], ['EAST', 'WEST']]
+#   arr.reduce([]){|y, x| d.include?([y.last.to_s, x].sort) ? y[0..-2] : y << x }
+# end
 
 
 
