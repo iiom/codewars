@@ -60,5 +60,11 @@ p dirReduc(["NORTH", "WEST", "SOUTH", "EAST"])
 # end
 
 
+# def dirReduc(arr)
+#   directions = arr.join(" ")
+#   true while directions.sub!(/EAST\s+WEST|WEST\s+EAST|SOUTH\s+NORTH|NORTH\s+SOUTH/, "")
+#   directions.split
+# end
+
 
 
