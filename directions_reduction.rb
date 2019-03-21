@@ -22,3 +22,24 @@ p dirReduc(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"])
 p dirReduc(["NORTH", "WEST", "SOUTH", "EAST"])
 
 
+# from kata
+# OPPOSITE = {
+#   "NORTH" => "SOUTH",
+#   "SOUTH" => "NORTH",
+#   "EAST"  => "WEST",
+#   "WEST"  => "EAST"
+# }
+
+# def dirReduc(arr)
+#   arr.each_with_object([]) { |direction, path|
+#     path.last == OPPOSITE[direction] ? path.pop : path.push(direction)
+#   }
+# end
+
+
+
+
+
+
+
+
